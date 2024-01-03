@@ -1,7 +1,16 @@
 import Header from "../features/Header";
+import Profile from "../features/Profile";
 
 function Applayout() {
-  return <Header />;
+  return (
+    <div className="h-screen">
+      <Header />
+
+      <main className="text-center">
+        <Profile />
+      </main>
+    </div>
+  );
 }
 
 export default Applayout;
