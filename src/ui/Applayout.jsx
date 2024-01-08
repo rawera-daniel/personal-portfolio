@@ -2,6 +2,7 @@ import AboutMe from "../features/AboutMe";
 import Header from "../features/Header";
 import MySkills from "../features/MySkills";
 import Profile from "../features/Profile";
+import Portfolio from "../features/portfolio";
 
 function Applayout() {
   return (
@@ -12,6 +13,7 @@ function Applayout() {
         <Profile />
         <AboutMe />
         <MySkills />
+        <Portfolio />
       </main>
     </div>
   );
