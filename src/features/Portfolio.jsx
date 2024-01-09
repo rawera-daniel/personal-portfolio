@@ -3,6 +3,7 @@ import Heading from "../ui/Heading";
 import ProjectLists from "../ui/ProjectLists";
 import GithubIcon from "../ui/GithubIcon";
 import Link from "../ui/Link";
+import Button from "./Button";
 
 function Portfolio() {
   return (
@@ -11,7 +12,7 @@ function Portfolio() {
       <p className="mb-10 text-lg font-normal tracking-wide">
         Curious what I've been up to? Check out this!
       </p>
-      <div className="mx-auto grid w-3/4  grid-cols-[auto_auto] gap-x-10 gap-y-10">
+      <div className="mx-auto mb-10 grid  w-3/4 grid-cols-[auto_auto] gap-x-10 gap-y-10">
         <ProjectLists
           src="/public/Screenshot 2023-12-26 101030.png"
           alt="A screenshot of the homepage of The wild oasis"
@@ -68,6 +69,13 @@ function Portfolio() {
           </ExternalLink>
         </ProjectLists>
       </div>
+
+      <Button type="with">
+        <span className="translate-y-0.5">See more</span>
+        <ExternalLink href="https://github.com/rawera-daniel">
+          <GithubIcon />
+        </ExternalLink>
+      </Button>
     </div>
   );
 }
