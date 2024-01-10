@@ -5,9 +5,10 @@ function Button({ children, type }) {
   const styles = {
     primary: base + " px-7 py-3 text-sm font-semibold",
     with: base + " px-7 pb-2.5 pt-3 text-base font-medium",
+    withb: base + " px-7 pb-2.5 pt-4 text-base font-medium",
   };
 
-  if (type === "with")
+  if (type === "with" || type === "withb")
     return (
       <button className={styles[type]}>
         <div className="flex translate-x-1 flex-wrap  content-center justify-center gap-x-1">

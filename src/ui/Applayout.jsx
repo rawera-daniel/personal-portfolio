@@ -1,4 +1,5 @@
 import AboutMe from "../features/AboutMe";
+import Contact from "../features/Contact";
 import Header from "../features/Header";
 import MySkills from "../features/MySkills";
 import Profile from "../features/Profile";
@@ -14,6 +15,7 @@ function Applayout() {
         <AboutMe />
         <MySkills />
         <Portfolio />
+        <Contact />
       </main>
     </div>
   );
