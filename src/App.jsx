@@ -1,12 +1,8 @@
+import React from "react";
 import Applayout from "./ui/Applayout";
 
 function App() {
-  return (
-    <div>
-      {" "}
-      <Applayout />
-    </div>
-  );
+  return <Applayout />;
 }
 
 export default App;

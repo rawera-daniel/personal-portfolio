@@ -7,7 +7,7 @@ import Button from "./Button";
 
 function Portfolio() {
   return (
-    <div className="py-12  text-stone-900">
+    <div className="  py-12 text-stone-900">
       <Heading>Portfolio</Heading>
       <p className="mb-10 text-lg font-normal tracking-wide">
         Curious what I've been up to? Check out this!

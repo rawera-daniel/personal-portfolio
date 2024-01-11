@@ -5,7 +5,7 @@ import { HiOutlinePaperAirplane } from "react-icons/hi2";
 
 function Contact() {
   return (
-    <div className="py-12  tracking-wide text-stone-900">
+    <div className="mb-6 py-12 tracking-wide text-stone-900">
       <Heading>Get in touch</Heading>
       <p className="mb-10 text-lg font-normal tracking-wide">
         Got a question, project needing a hand, or interested in collaborating?
