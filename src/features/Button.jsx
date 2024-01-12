@@ -1,3 +1,5 @@
+import ExternalLink from "../ui/ExternalLink";
+
 function Button({ children, type }) {
   const base =
     "inline-block rounded-full bg-rose-600 tracking-wide text-stone-50 transition-colors duration-300 hover:bg-rose-500 focus:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-500 focus:ring-offset-2";
@@ -17,7 +19,11 @@ function Button({ children, type }) {
       </button>
     );
 
-  return <button className={styles[type]}>{children}</button>;
+  return (
+    <ExternalLink href="/Rawera-CV.pdf">
+      <button className={styles[type]}>{children}</button>
+    </ExternalLink>
+  );
 }
 
 export default Button;
