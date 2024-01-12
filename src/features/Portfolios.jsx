@@ -5,7 +5,7 @@ import GithubIcon from "../ui/GithubIcon";
 import Link from "../ui/Link";
 import Button from "./Button";
 
-function Portfolio() {
+function Portfolios() {
   return (
     <div className="  py-12 text-stone-900">
       <Heading>Portfolio</Heading>
@@ -80,4 +80,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Portfolios;

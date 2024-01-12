@@ -4,7 +4,7 @@ import Footer from "../features/Footer";
 import Header from "../features/Header";
 import MySkills from "../features/MySkills";
 import Profile from "../features/Profile";
-import Portfolio from "../features/portfolio";
+import Portfolios from "../features/Portfolios";
 
 function Applayout() {
   return (
@@ -15,7 +15,7 @@ function Applayout() {
         <Profile />
         <AboutMe />
         <MySkills />
-        <Portfolio />
+        <Portfolios />
         <Contact />
       </main>
 
