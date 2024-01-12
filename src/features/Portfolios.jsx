@@ -14,7 +14,6 @@ function Portfolios() {
       </p>
       <div className="mx-auto mb-10 grid  w-3/4 grid-cols-[auto_auto] gap-x-10 gap-y-10">
         <ProjectLists
-          // src="/public/images/Screenshot 2023-12-26 101030.png"
           src="/Screenshot 2023-12-26 101030.png"
           alt="A screenshot of the homepage of The wild oasis"
           title="The wild oasis"
@@ -29,7 +28,7 @@ function Portfolios() {
         </ProjectLists>
 
         <ProjectLists
-          src="/public/images/Screenshot 2023-12-25 170458.png"
+          src="/Screenshot 2023-12-25 170458.png"
           alt="A screenshot of the homepage of Fast React Pizza"
           title="Fast React Pizza"
           description="A website for ordering pizzas"
@@ -43,7 +42,7 @@ function Portfolios() {
         </ProjectLists>
 
         <ProjectLists
-          src="/public/images/Screenshot 2023-12-27 130947.png"
+          src="/Screenshot 2023-12-27 130947.png"
           alt="A screenshot of the homepage of forkify recipe applicaton"
           title="Forkify Recipe applicaton"
           description="Searching for meal recipes"
@@ -57,7 +56,7 @@ function Portfolios() {
         </ProjectLists>
 
         <ProjectLists
-          src="/public/images/Screenshot 2023-12-27 114135.png"
+          src="/Screenshot 2023-12-27 114135.png"
           alt="A screenshot of the homepage of Omnifood"
           title="Omnifood"
           description="A health meal delivery"
