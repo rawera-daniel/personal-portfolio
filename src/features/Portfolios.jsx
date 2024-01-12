@@ -14,7 +14,8 @@ function Portfolios() {
       </p>
       <div className="mx-auto mb-10 grid  w-3/4 grid-cols-[auto_auto] gap-x-10 gap-y-10">
         <ProjectLists
-          src="/public/images/Screenshot 2023-12-26 101030.png"
+          // src="/public/images/Screenshot 2023-12-26 101030.png"
+          src="/Screenshot 2023-12-26 101030.png"
           alt="A screenshot of the homepage of The wild oasis"
           title="The wild oasis"
           description="A management dashboard for hotel"
