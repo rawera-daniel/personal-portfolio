@@ -1,18 +1,6 @@
-import { Link, animateScroll as scroll } from "react-scroll";
 import ScrollingLink from "../ui/ScrollingLink";
 
 function Header() {
-  const options = {
-    // Your options here, for example:
-    duration: 5000,
-    smooth: true,
-  };
-
-  const scrollToTop = (options) => {
-    console.log(options);
-    scroll.scrollToBottom({ duration: 1000, smooth: true });
-  };
-
   return (
     <header className=" bg-stone-950">
       <nav className="px-3 py-6 ">

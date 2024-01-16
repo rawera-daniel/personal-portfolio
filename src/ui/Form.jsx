@@ -62,7 +62,7 @@ function Form() {
         <Lable label="Your email">
           <input
             type="email"
-            pattern="/\S+@\S+\.\S+/"
+            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
             title="please provide a vaild email address"
             name="email"
             id="email"
