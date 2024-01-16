@@ -1,7 +1,5 @@
 import Heading from "../ui/Heading";
 import Form from "../ui/Form";
-import Button from "./Button";
-import { HiOutlinePaperAirplane } from "react-icons/hi2";
 
 function Contact() {
   return (
@@ -13,10 +11,6 @@ function Contact() {
       </p>
 
       <Form />
-      <Button type="withb">
-        <span className="translate-x-[-4px] translate-y-[-4px] ">Send</span>{" "}
-        <HiOutlinePaperAirplane className="h-4 w-4" />{" "}
-      </Button>
     </div>
   );
 }
