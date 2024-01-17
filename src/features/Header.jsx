@@ -15,7 +15,7 @@ function Header() {
             <ScrollingLink to="portfolio">Portfolio</ScrollingLink>
           </li>
           <li>
-            <ScrollingLink to="getintouch" duration="800">
+            <ScrollingLink to="getintouch" durations="800">
               Get in touch
             </ScrollingLink>
           </li>

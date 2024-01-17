@@ -8,6 +8,22 @@ function Form() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [body, setBody] = useState("");
+  const [isValid, setIsValid] = useState(true);
+
+  const handleEmailChange = (e) => {
+    const newEmail = e.target.value;
+    setEmail(newEmail);
+    // Check if the new email is valid and update the isValid state
+    setIsValid(isValidEmail(newEmail));
+  };
+
+  const isValidEmail = (email) => {
+    // Define the regular expression pattern for a simple email validation
+    const pattern = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+
+    // Use the test method to check if the email matches the pattern
+    return pattern.test(email);
+  };
 
   const className =
     "border-b-[1.5px] border-solid border-current pb-1 pr-1 text-base font-medium outline-0";
@@ -32,14 +48,14 @@ function Form() {
         },
       );
       if (!res.ok) throw Error();
-      if (res.ok) {
-        toast.success("The email has been sent");
+      if (res.ok && isValid) {
+        toast.success("Sent! I'll be in touch");
         setEmail("");
         setName("");
         setBody("");
       }
     } catch (err) {
-      toast.error("The email hasn't been sent");
+      toast.error("Something went wrong. Try again!");
     }
   }
 
@@ -62,16 +78,19 @@ function Form() {
         <Lable label="Your email">
           <input
             type="email"
-            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-            title="please provide a vaild email address"
             name="email"
             id="email"
             placeholder="Enter Your email address"
             required
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={handleEmailChange}
             className={className}
           />
+          {isValid ? null : (
+            <p className="translate-x-[-56px] text-sm text-red-500 ">
+              Please provide a vaild email address
+            </p>
+          )}
         </Lable>
       </div>
 

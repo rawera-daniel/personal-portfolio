@@ -5,7 +5,7 @@ function Lable({
 }) {
   return (
     <div className="flex flex-col gap-y-1.5 ">
-      <label htmlFor={children.props.id} className={className}>
+      <label htmlFor={children.props?.id} className={className}>
         {label}
       </label>
       {children}
