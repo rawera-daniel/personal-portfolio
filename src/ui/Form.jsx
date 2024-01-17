@@ -3,27 +3,14 @@ import Button from "../features/Button";
 import Lable from "./Lable";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import { useEmailValidation } from "../hooks/useEmailValidation";
 
 function Form() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [body, setBody] = useState("");
-  const [isValid, setIsValid] = useState(true);
 
-  const handleEmailChange = (e) => {
-    const newEmail = e.target.value;
-    setEmail(newEmail);
-    // Check if the new email is valid and update the isValid state
-    setIsValid(isValidEmail(newEmail));
-  };
-
-  const isValidEmail = (email) => {
-    // Define the regular expression pattern for a simple email validation
-    const pattern = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-
-    // Use the test method to check if the email matches the pattern
-    return pattern.test(email);
-  };
+  const [isValid, handleEmail] = useEmailValidation(setEmail);
 
   const className =
     "border-b-[1.5px] border-solid border-current pb-1 pr-1 text-base font-medium outline-0";
@@ -83,7 +70,7 @@ function Form() {
             placeholder="Enter Your email address"
             required
             value={email}
-            onChange={handleEmailChange}
+            onChange={handleEmail}
             className={className}
           />
           {isValid ? null : (
