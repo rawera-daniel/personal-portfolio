@@ -8,7 +8,7 @@ import Portfolios from "../features/Portfolios";
 
 function Applayout() {
   return (
-    <div className="h-screen">
+    <div className="grid h-screen grid-rows-[auto_1fr_auto]">
       <Header />
 
       <main className="text-center">

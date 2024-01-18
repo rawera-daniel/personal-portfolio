@@ -47,7 +47,7 @@ function Form() {
   }
 
   return (
-    <form className="mx-auto mb-10 w-1/2 " onSubmit={sendEmail}>
+    <form className="mx-96 mb-10" onSubmit={sendEmail}>
       <div className="mb-16 grid grid-cols-[auto_auto] space-x-24">
         <Lable label="Your Name">
           <input
