@@ -5,7 +5,9 @@ function Button({ children, type }) {
     "inline-block rounded-full bg-rose-600 tracking-wide text-stone-50 transition-colors duration-300 hover:bg-rose-500 focus:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-500 focus:ring-offset-2";
 
   const styles = {
-    primary: base + " px-7 py-3 text-sm font-semibold",
+    primary:
+      base +
+      " md:px-7 md:py-3 sm:px-8 sm:py-4 md:text-sm px-9 py-5  sm:text-base text-lg font-semibold",
     with: base + " px-7 pb-2.5 pt-3 text-base font-medium",
     withb: base + " px-7 pb-2.5 pt-4 text-base font-medium",
   };
