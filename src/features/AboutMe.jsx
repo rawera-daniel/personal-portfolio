@@ -2,7 +2,7 @@ import Heading from "../ui/Heading";
 
 function AboutMe() {
   return (
-    <div className="  py-12 text-stone-900" id="aboutme">
+    <div className="py-12 text-stone-900" id="aboutme">
       <Heading>About me</Heading>{" "}
       <p className="mx-auto w-11/12 text-2xl font-normal leading-9 tracking-wider sm:w-5/6 sm:text-xl sm:leading-8 md:text-lg md:tracking-wide lg:w-4/6 lg:text-base">
         Hello, I’m Rawera 👋, a front-end developer specializing in JavaScript,
