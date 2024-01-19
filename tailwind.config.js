@@ -6,6 +6,9 @@ export default {
     fontFamily: { sans: "Raleway, monospace" },
     extend: {
       height: { screen: "100dvh" },
+      screens: {
+        m: "520px",
+      },
     },
   },
   plugins: [],
