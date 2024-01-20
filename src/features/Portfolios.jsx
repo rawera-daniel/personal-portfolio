@@ -7,12 +7,12 @@ import Button from "./Button";
 
 function Portfolios() {
   return (
-    <div className="  py-12 text-stone-900" id="portfolio">
+    <div className="py-12 text-stone-900" id="portfolio">
       <Heading>Portfolio</Heading>
       <p className="mb-10 text-sm font-normal tracking-wide sm:text-base md:text-lg">
         Curious what I've been up to? Check out this!
       </p>
-      <div className="mx-auto mb-10 grid w-1/4 grid-cols-[auto] gap-y-6 m:w-[35%] m:gap-x-6 m:gap-y-6 sm:grid-cols-[auto_auto] md:w-[55%]  md:gap-x-10 md:gap-y-10 lg:w-3/4">
+      <div className="max-w-1/4 lg:max-w-3/4 mx-auto mb-10 grid grid-cols-[auto] gap-y-6 m:max-w-[35%] m:gap-x-6 m:gap-y-6 sm:grid-cols-[auto_auto] md:max-w-[55%] md:gap-x-10 md:gap-y-10">
         <ProjectLists
           src="/Screenshot 2023-12-26 101030.png"
           alt="A screenshot of the homepage of The wild oasis"

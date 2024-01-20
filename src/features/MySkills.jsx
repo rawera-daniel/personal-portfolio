@@ -4,7 +4,7 @@ import Image from "../ui/Image";
 function MySkills() {
   const className = "sm:size-14 size-9";
   return (
-    <div className="py-12  text-stone-900" id="myskills">
+    <div className="py-12 text-stone-900" id="myskills">
       <Heading>My skills</Heading>
       <div className=" mx-8 flex flex-wrap items-center  justify-center space-x-2">
         <Image

@@ -2,7 +2,7 @@ import { DiGithubBadge } from "react-icons/di";
 
 function GithubIcon() {
   return (
-    <DiGithubBadge className="size-7 translate-y-[-4.5px] transition-all duration-500 hover:fill-stone-600 lg:size-8" />
+    <DiGithubBadge className="size-7 translate-y-[-0.281rem] transition-all duration-500 hover:fill-stone-600 lg:size-8" />
   );
 }
 

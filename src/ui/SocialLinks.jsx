@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { RiWhatsappFill } from "react-icons/ri";
 
 function SocialLinks() {
-  const className = "h-5 w-5 hover:fill-stone-400 transition-all duration-500";
+  const className = "size-5 hover:fill-stone-400 transition-all duration-500";
   return (
     <div className=" flex flex-wrap  content-center gap-x-3">
       <ExternalLink href="https://www.linkedin.com/in/rawera-daniel/">

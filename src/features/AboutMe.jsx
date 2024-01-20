@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div className="py-12 text-stone-900" id="aboutme">
       <Heading>About me</Heading>{" "}
-      <p className="mx-auto w-[25%] text-xs font-normal leading-relaxed  tracking-wide sm:w-1/2 sm:text-sm md:w-2/5 md:text-base lg:w-4/6">
+      <p className="mx-auto max-w-[25%] text-xs font-normal leading-relaxed  tracking-wide sm:max-w-[50%] sm:text-sm md:max-w-[40%] md:text-base lg:max-w-[66.67%]">
         Hello, I’m Rawera 👋, a front-end developer specializing in JavaScript,
         particularly React, based in Addis Ababa, Ethiopia. I'm a driven
         individual who enjoys planning, building, and utilizing my skills to

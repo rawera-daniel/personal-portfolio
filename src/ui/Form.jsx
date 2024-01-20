@@ -13,7 +13,7 @@ function Form() {
   const [isValid, handleEmail] = useEmailValidation(setEmail);
 
   const className =
-    "border-b-[1.5px] border-solid border-current pb-1 pr-1 text-base font-medium outline-0";
+    "border-b-[0.094rem] border-solid border-current pb-1 pr-1 text-base font-medium outline-0";
 
   async function sendEmail(e) {
     e.preventDefault();
@@ -95,7 +95,9 @@ function Form() {
 
       <div className="mt-6">
         <Button type="withb">
-          <span className="translate-x-[-4px] translate-y-[-4px] ">Send</span>{" "}
+          <span className="translate-x-[-0.25rem] translate-y-[-0.25rem] ">
+            Send
+          </span>{" "}
           <HiOutlinePaperAirplane className="h-4 w-4" />{" "}
         </Button>
       </div>
