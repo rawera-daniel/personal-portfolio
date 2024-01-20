@@ -10,7 +10,7 @@ function Button({ children, type }) {
       " md:px-7 md:py-3 sm:px-8 sm:py-4 md:text-sm px-9 py-5  sm:text-base text-lg font-semibold",
     with:
       base +
-      " lg:px-7 m:px-8 px-9 lg:pb-2.5 lg:pt-3 md:pb-3 md:pt-3.5 sm:pb-3.5 sm:pt-4 m:pb-4 m:pt-5 pb-5 pt-6  lg:text-base sm:text-xl m:text-2xl md:text-lg text-3xl font-medium",
+      "m:px-6 m:pb-2.5 m:pt-3 px-6 pb-2.5 pt-3 lg:text-base text-sm font-medium",
     withb: base + " px-7 pb-2.5 pt-4 text-base font-medium",
   };
 
