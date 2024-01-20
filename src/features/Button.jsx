@@ -7,10 +7,8 @@ function Button({ children, type }) {
   const styles = {
     primary:
       base +
-      " md:px-7 md:py-3 sm:px-8 sm:py-4 md:text-sm px-9 py-5  sm:text-base text-lg font-semibold",
-    with:
-      base +
-      "m:px-6 m:pb-2.5 m:pt-3 px-6 pb-2.5 pt-3 lg:text-base text-sm font-medium",
+      "lg:px-7 sm:px-6 sm:py-3 sm:text-sm px-5 py-3 text-xs font-semibold",
+    with: base + "m:px-7 px-6 pb-2.5 pt-3 lg:text-base text-sm font-medium",
     withb: base + " px-7 pb-2.5 pt-4 text-base font-medium",
   };
 
