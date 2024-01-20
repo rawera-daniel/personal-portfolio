@@ -2,7 +2,7 @@ import Heading from "../ui/Heading";
 import Image from "../ui/Image";
 
 function MySkills() {
-  const className = "lg:size-14 md:size-16 sm:size-20 size-24";
+  const className = "sm:size-14 size-9";
   return (
     <div className="py-12  text-stone-900" id="myskills">
       <Heading>My skills</Heading>
