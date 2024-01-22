@@ -6,6 +6,7 @@ function Lable({
 }) {
   return (
     <div className={`flex flex-col gap-y-1.5 sm:w-[${smWidth}]`}>
+      {/* // <div className="flex flex-col gap-y-1.5 sm:w-[45%]"> */}
       <label htmlFor={children.props?.id} className={className}>
         {label}
       </label>

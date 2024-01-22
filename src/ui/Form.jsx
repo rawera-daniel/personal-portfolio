@@ -48,7 +48,7 @@ function Form() {
 
   return (
     <form
-      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[70%] lg:max-w-[50%] "
+      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[70%] lg:max-w-[50%]"
       onSubmit={sendEmail}
     >
       <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between  sm:space-y-0">
