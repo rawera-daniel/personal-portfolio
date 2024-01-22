@@ -16,7 +16,7 @@ function Applayout() {
         <AboutMe />
         <MySkills />
         <Portfolios />
-        {/* <Contact /> */}
+        <Contact />
       </main>
 
       <Footer />
