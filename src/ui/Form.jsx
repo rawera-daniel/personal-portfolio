@@ -48,11 +48,11 @@ function Form() {
 
   return (
     <form
-      className="mx-auto w-[80%] sm:w-[90%] md:w-[70%] lg:w-[50%] "
+      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[70%] lg:max-w-[50%] "
       onSubmit={sendEmail}
     >
-      <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between sm:space-y-0">
-        <Lable label="Your Name" smWidth="w-[45%]">
+      <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between  sm:space-y-0">
+        <Lable label="Your Name" smWidth="45%">
           <input
             type="text"
             name="yourname"
@@ -65,7 +65,7 @@ function Form() {
           />
         </Lable>
 
-        <Lable label="Your email" smWidth="w-[45%]">
+        <Lable label="Your email" smWidth="45%">
           <input
             type="email"
             name="email"
