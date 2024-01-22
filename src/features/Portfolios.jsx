@@ -12,7 +12,7 @@ function Portfolios() {
       <p className="mb-10 text-sm font-normal tracking-wide sm:text-base md:text-lg">
         Curious what I've been up to? Check out this!
       </p>
-      <div className="mx-auto mb-10 grid max-w-[25%] grid-cols-[auto] gap-y-6 m:max-w-[35%] m:gap-x-6 m:gap-y-6 sm:grid-cols-[auto_auto] md:max-w-[55%] md:gap-x-10 md:gap-y-10 lg:max-w-[75%]">
+      <div className="mx-auto mb-10 grid max-w-[90%] grid-cols-[auto] gap-y-6 m:gap-y-6 sm:max-w-[95%] sm:grid-cols-[auto_auto] sm:gap-x-6 md:max-w-[85%] md:gap-x-10 md:gap-y-10 lg:max-w-[75%]">
         <ProjectLists
           src="/Screenshot 2023-12-26 101030.png"
           alt="A screenshot of the homepage of The wild oasis"
