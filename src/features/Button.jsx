@@ -8,8 +8,12 @@ function Button({ children, type }) {
     primary:
       base +
       "lg:px-7 sm:px-6 sm:py-3 sm:text-sm px-5 py-3 text-xs font-semibold",
-    with: base + " m:px-7 px-6 pb-2.5 pt-3 lg:text-base text-sm font-medium",
-    withb: base + " px-7 pb-2.5 pt-4 text-base font-medium",
+    with:
+      base +
+      " m:px-7 m:pb-3 px-6  pb-2.5 pt-3 lg:text-base text-sm font-medium",
+    withb:
+      base +
+      " px-8 pb-2.5 pt-3.5 sm:pb-2.5 sm:pt-4 md:text-base text-sm font-medium",
   };
 
   if (type === "with" || type === "withb")

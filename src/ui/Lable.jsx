@@ -1,10 +1,11 @@
 function Lable({
   label,
   children,
-  className = "self-start text-sm capitalize tracking-wider",
+  smWidth,
+  className = "self-start sm:text-sm text-xs capitalize tracking-wider",
 }) {
   return (
-    <div className="flex flex-col gap-y-1.5 ">
+    <div className={`flex flex-col gap-y-1.5 sm:${smWidth}`}>
       <label htmlFor={children.props?.id} className={className}>
         {label}
       </label>

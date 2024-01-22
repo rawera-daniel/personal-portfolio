@@ -13,7 +13,7 @@ function Form() {
   const [isValid, handleEmail] = useEmailValidation(setEmail);
 
   const className =
-    "border-b-[0.094rem] border-solid border-current pb-1 pr-1 text-base font-medium outline-0";
+    "border-b-[0.094rem] border-solid border-current pb-1 pr-1 sm:text-base text-sm font-medium outline-0";
 
   async function sendEmail(e) {
     e.preventDefault();
@@ -47,9 +47,12 @@ function Form() {
   }
 
   return (
-    <form className="mx-96 mb-10" onSubmit={sendEmail}>
-      <div className="mb-16 grid grid-cols-[auto_auto] space-x-24">
-        <Lable label="Your Name">
+    <form
+      className="mx-auto w-[80%] sm:w-[90%] md:w-[70%] lg:w-[50%] "
+      onSubmit={sendEmail}
+    >
+      <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between sm:space-y-0">
+        <Lable label="Your Name" smWidth="w-[45%]">
           <input
             type="text"
             name="yourname"
@@ -62,7 +65,7 @@ function Form() {
           />
         </Lable>
 
-        <Lable label="Your email">
+        <Lable label="Your email" smWidth="w-[45%]">
           <input
             type="email"
             name="email"
@@ -95,10 +98,8 @@ function Form() {
 
       <div className="mt-6">
         <Button type="withb">
-          <span className="translate-x-[-0.25rem] translate-y-[-0.25rem] ">
-            Send
-          </span>{" "}
-          <HiOutlinePaperAirplane className="h-4 w-4" />{" "}
+          <span className="translate-x-[-4px] translate-y-[-2px]">Send</span>{" "}
+          <HiOutlinePaperAirplane className="size-4 md:size-5" />{" "}
         </Button>
       </div>
     </form>
