@@ -1,6 +1,10 @@
 import { Link } from "react-scroll";
 
-function ScrollingLink({ to, durations = "500", children }) {
+function ScrollingLink({ to, setIsNavExpanded, durations = "500", children }) {
+  const handleClick = () => {
+    setIsNavExpanded?.(false);
+  };
+
   return (
     <Link
       activeClass="active"
@@ -8,6 +12,7 @@ function ScrollingLink({ to, durations = "500", children }) {
       spy={true}
       smooth={true}
       duration={+durations}
+      onClick={handleClick}
     >
       {children}
     </Link>
