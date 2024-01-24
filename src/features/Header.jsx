@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header className=" bg-stone-950">
-      <nav className="relative sm:px-3 sm:py-6">
+      <nav className="relative max-m:mb-3  sm:px-3 sm:py-6">
         <div
           className={`absolute left-0 top-5 min-h-56  w-[100%] items-center justify-center bg-stone-950 transition-all duration-500 ease-in  max-sm:flex sm:bg-inherit   ${
             isNavExpanded ? " max-sm:opacity-1" : "max-sm:opacity-0"
