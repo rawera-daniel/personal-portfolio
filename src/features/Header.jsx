@@ -1,6 +1,7 @@
 import { HiBars3, HiMiniXMark } from "react-icons/hi2";
 import ScrollingLink from "../ui/ScrollingLink";
 import { useState } from "react";
+import Button from "./Button";
 
 function Header() {
   const navLInks = [
@@ -36,18 +37,13 @@ function Header() {
           </ul>
         </div>
 
-        <button
-          onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}
-          className="absolute right-6 top-4 block transition-all duration-500 ease-in sm:hidden "
-        >
+        <Button onClick={() => setIsNavExpanded(!isNavExpanded)}>
           {isNavExpanded ? (
             <HiMiniXMark className="size-9" />
           ) : (
             <HiBars3 className="size-9" />
           )}
-        </button>
+        </Button>
       </nav>
     </header>
   );
