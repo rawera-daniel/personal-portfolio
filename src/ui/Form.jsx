@@ -13,7 +13,7 @@ function Form() {
   const [isValid, handleEmail] = useEmailValidation(setEmail);
 
   const className =
-    "border-b-[0.094rem] border-solid border-current pb-1 pr-1 sm:text-base text-sm font-medium outline-0";
+    "border-b-[0.094rem] border-solid border-current pb-1 pr-1 max-m:tracking-wide text-base font-medium outline-0";
 
   async function sendEmail(e) {
     e.preventDefault();
@@ -48,7 +48,7 @@ function Form() {
 
   return (
     <form
-      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[70%] lg:max-w-[50%]"
+      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[75%] lg:max-w-[55%]"
       onSubmit={sendEmail}
     >
       <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between  sm:space-y-0">
@@ -77,7 +77,7 @@ function Form() {
             className={className}
           />
           {isValid ? null : (
-            <p className="translate-x-[-56px] text-sm text-red-500 ">
+            <p className="mt-1 text-start text-sm text-red-500 md:min-w-[50%]">
               Please provide a vaild email address
             </p>
           )}
