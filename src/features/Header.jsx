@@ -12,16 +12,18 @@ function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <header className=" bg-stone-950">
-      <nav className="relative max-m:mb-3  sm:px-3 sm:py-6">
+    <header className="bg-stone-950">
+      <nav className="relative max-m:mb-3  sm:mt-2 sm:px-3 sm:py-6">
         <div
-          className={`absolute left-0 top-5 min-h-56  w-[100%] items-center justify-center bg-stone-950 transition-all duration-500 ease-in  max-sm:flex sm:bg-inherit   ${
-            isNavExpanded ? " max-sm:opacity-1" : "max-sm:opacity-0"
+          className={`absolute left-0 top-5 w-[100%]  items-center justify-center bg-stone-950 transition-all duration-500 ease-in max-sm:flex  max-sm:min-h-56 sm:bg-inherit   ${
+            isNavExpanded
+              ? "max-sm:opacity-1 maz-sm:pointer-events-auto max-sm:visible"
+              : "max-sm:pointer-events-none max-sm:invisible max-sm:opacity-0"
           }`}
         >
           <ul className="flex cursor-pointer flex-col items-center justify-center gap-y-5 text-base font-semibold tracking-wide text-stone-50  m:gap-y-6  sm:flex-row sm:gap-x-8">
             {navLInks.map((links) => (
-              <li key={links.to}>
+              <li key={links.to} className="hover:text-rose-400">
                 <ScrollingLink
                   setIsNavExpanded={setIsNavExpanded}
                   to={links.to}

@@ -1,6 +1,11 @@
-function ExternalLink({ children, href }) {
+function ExternalLink({ children, href, className }) {
   return (
-    <a href={href} rel="noopener noreferrer" target="_blank">
+    <a
+      href={href}
+      rel="noopener noreferrer"
+      className={className}
+      target="_blank"
+    >
       {children}
     </a>
   );

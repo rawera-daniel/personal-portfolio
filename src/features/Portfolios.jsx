@@ -71,8 +71,9 @@ function Portfolios() {
       </div>
 
       <Button type="with">
-        <span className="translate-y-0.5">See more</span>
-        <ExternalLink href="https://github.com/rawera-daniel">
+        <ExternalLink href="https://github.com/rawera-daniel" className="flex">
+          <span className="translate-x-[-4px] translate-y-0.5">See more</span>
+
           <GithubIcon />
         </ExternalLink>
       </Button>
