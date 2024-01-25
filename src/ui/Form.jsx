@@ -48,7 +48,7 @@ function Form() {
 
   return (
     <form
-      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[75%] lg:max-w-[55%]"
+      className="mx-auto max-w-[80%] sm:max-w-[90%] md:max-w-[75%] lg:max-w-[45%]"
       onSubmit={sendEmail}
     >
       <div className="mb-8 flex flex-col space-y-8 sm:flex-row sm:justify-between  sm:space-y-0">
@@ -78,7 +78,7 @@ function Form() {
           />
           {isValid ? null : (
             <p className="mt-1 text-start text-sm text-red-500 md:min-w-[50%]">
-              Please provide a vaild email address
+              Enter a valid email address
             </p>
           )}
         </Lable>
