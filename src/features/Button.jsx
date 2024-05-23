@@ -36,7 +36,7 @@ function Button({ children, type, onClick }) {
     );
 
   return (
-    <ExternalLink href="/Rawera-CV.pdf">
+    <ExternalLink href="/Rawera-CV-V2.pdf">
       <button className={styles[type]}>{children}</button>
     </ExternalLink>
   );

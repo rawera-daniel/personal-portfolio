@@ -20,8 +20,14 @@ function MySkills() {
         />
 
         <Image
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
           alt="Tailwind CSS"
+          className={className}
+        />
+
+        <Image
+          src="/styled-components.png"
+          alt="styled components"
           className={className}
         />
 
