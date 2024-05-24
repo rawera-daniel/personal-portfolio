@@ -7,6 +7,7 @@ function Header() {
   const navLInks = [
     { name: "About me", to: "aboutme" },
     { name: "My skills", to: "myskills" },
+    { name: "Experience", to: "experience" },
     { name: "Portfolio", to: "portfolio" },
     { name: "Get in touch", to: "getintouch", durations: "800" },
   ];
