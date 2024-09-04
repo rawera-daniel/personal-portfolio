@@ -7,7 +7,7 @@ function Profile() {
         Rawera Daniel
       </h1>
       <p className="mb-4 text-lg m:text-xl sm:mb-6 sm:text-2xl">
-        Front-end Developer
+        Full-Stack Developer
       </p>
       <Button type="primary">Download CV</Button>
     </div>
