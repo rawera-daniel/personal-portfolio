@@ -18,7 +18,7 @@ function Experience() {
           </ExperienceDuration>
           <ExperienceList>
             <ExperienceLists>
-              Developed and implemented 3 new features (e.g., text editor, data
+              Developed and implemented new features (e.g., text editor, data
               filtering, form and text input element) using React and Styled
               Components based on Figma designs.
             </ExperienceLists>
