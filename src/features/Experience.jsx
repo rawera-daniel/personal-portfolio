@@ -13,17 +13,23 @@ function Experience() {
           <ExperienceHeader companyName="Atomic">
             Front-end Developer
           </ExperienceHeader>
-          <ExperienceDuration>February 2024 — Present</ExperienceDuration>
+          <ExperienceDuration>
+            February 2024 — September 2024
+          </ExperienceDuration>
           <ExperienceList>
             <ExperienceLists>
-              Build a new feature and correct an existing one using primarily
-              React and styled components, following the design specifications
-              provided in Figma.
+              Developed and implemented 3 new features (e.g., text editor, data
+              filtering, form and text input element) using React and Styled
+              Components based on Figma designs.
             </ExperienceLists>
             <ExperienceLists>
-              Fix any bug that makes the website not work properly. If the bug
-              is related to the back-end, report it to the team with an
-              explanation
+              Debugged data retrieval and API integration issues affecting data
+              handling and API integration, simultaneously improving code
+              reusability by refactoring repeated logic and features into shared
+              functions.
+            </ExperienceLists>
+            <ExperienceLists>
+              Collaborated using GitHub, Trello and Teamhood.
             </ExperienceLists>
           </ExperienceList>
         </div>
@@ -34,10 +40,8 @@ function Experience() {
         <ExperienceDuration>March 2021 — November 2022</ExperienceDuration>
         <ExperienceList>
           <ExperienceLists>
-            As a junior administrative specialist, my key responsibility was
-            ensuring the smooth flow of daily tasks. This involved collaborating
-            with different units that foster my teamwork culture, and
-            communicating effectively to prevent misunderstandings.
+            Coordinated with cross-functional teams to ensure smooth daily
+            operations and effective workflow between departments.
           </ExperienceLists>
         </ExperienceList>
       </div>

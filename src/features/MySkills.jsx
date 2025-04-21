@@ -50,6 +50,30 @@ function MySkills() {
         />
 
         <Image
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+          alt="Next.js"
+          className={className}
+        />
+
+        <Image
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+          alt="Node.js"
+          className={className}
+        />
+
+        <Image
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+          alt="Express.js"
+          className={className}
+        />
+
+        <Image
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+          alt="MongoDB"
+          className={className}
+        />
+
+        <Image
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
           alt="Github"
           className={className}
